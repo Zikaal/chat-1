@@ -38,16 +38,16 @@ This project is a browser-based chatbot application powered by the Ollama LLM. I
    pip install -r requirements.txt
 
 4. Configure environment variables:
-Create a .env file in the root directory and add the following:
+- Create a .env file in the root directory and add the following:
    ```arduino
    OLLAMA_API_URL=http://localhost:11434
    MONGODB_URI=mongodb://localhost:27017
 
 5. Ensure that Ollama and MongoDB are running:
-Start the Ollama server:
+- Start the Ollama server:
    ```bash
    ollama serve
-Verify that MongoDB is running on the specified URI.
+- Verify that MongoDB is running on the specified URI.
 
 ## Usage
 
@@ -62,12 +62,12 @@ Verify that MongoDB is running on the specified URI.
 ## Examples
 
 ### Example 1:
-User Query: "What is the capital of France?"
-Response: "The capital of France is Paris."
+- User Query: "What is the capital of France?"
+- Response: "The capital of France is Paris."
 
 ### Example 2:
-User Query: "Explain quantum mechanics."
-Response: "Quantum mechanics is a branch of physics that studies the behavior of matter and energy at the atomic level..."
+- User Query: "Explain quantum mechanics."
+- Response: "Quantum mechanics is a branch of physics that studies the behavior of matter and energy at the atomic level..."
 
 ## Project Structure
 ```bash
@@ -81,7 +81,7 @@ project-name/
 └── .gitignore           # Ignored files
 ```
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+- This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 - Streamlit — for providing a simple web application framework.
