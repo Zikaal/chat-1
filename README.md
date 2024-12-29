@@ -49,7 +49,7 @@ Start the Ollama server:
    ollama serve
 Verify that MongoDB is running on the specified URI.
 
-##Usage
+## Usage
 
 1. Run the chatbot application:
    ```bash
@@ -59,17 +59,17 @@ Verify that MongoDB is running on the specified URI.
 
 3. Enter your query in the input field and receive responses from the Ollama model. All queries and responses will be stored in MongoDB.
 
-##Examples
+## Examples
 
-###Example 1:
+### Example 1:
 User Query: "What is the capital of France?"
 Response: "The capital of France is Paris."
 
-###Example 2:
+### Example 2:
 User Query: "Explain quantum mechanics."
 Response: "Quantum mechanics is a branch of physics that studies the behavior of matter and energy at the atomic level..."
 
-##Project Structure
+## Project Structure
    ```bash
 project-name/
 │
@@ -79,3 +79,11 @@ project-name/
 │   ├── app.py           # Main Streamlit application
 │
 └── .gitignore           # Ignored files
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+Streamlit — for providing a simple web application framework.
+Ollama — for their powerful language model.
+MongoDB — for a reliable database solution.
