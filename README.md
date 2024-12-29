@@ -53,7 +53,7 @@ This project is a browser-based chatbot application powered by the Ollama LLM. I
 
 1. Run the chatbot application:
    ```bash
-   streamlit run src/app.py
+   streamlit run src/chatbot.py
 
 2. Open your browser at the provided URL.
 
@@ -76,9 +76,9 @@ project-name/
 ├── README.md            # Documentation
 ├── requirements.txt     # Project dependencies
 ├── src/                 # Source code
-│   ├── app.py           # Main Streamlit application
+│   ├── chatbot.py           # Main Streamlit application
 ├── test/                 
-│   ├── app.py
+│   ├── chatbot.py
 └── .gitignore           # Ignored files
 ```
 ## License
