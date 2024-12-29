@@ -77,7 +77,8 @@ project-name/
 ├── requirements.txt     # Project dependencies
 ├── src/                 # Source code
 │   ├── app.py           # Main Streamlit application
-│
+├── test/                 
+│   ├── app.py
 └── .gitignore           # Ignored files
 ```
 ## License
