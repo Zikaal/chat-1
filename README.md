@@ -17,8 +17,8 @@ This project is a browser-based chatbot application powered by the Ollama LLM. I
 
 ### Prerequisites
 - Python 3.8 or higher
-- **Ollama LLM** installed locally ([Installation Guide](https://ollama.com))
-- A running instance of **MongoDB** (local or cloud-based)
+- **Ollama LLM** installed locally 
+- A running instance of **MongoDB** 
 
 ### Steps
 
