@@ -70,7 +70,7 @@ User Query: "Explain quantum mechanics."
 Response: "Quantum mechanics is a branch of physics that studies the behavior of matter and energy at the atomic level..."
 
 ## Project Structure
-   ```bash
+```bash
 project-name/
 │
 ├── README.md            # Documentation
@@ -79,7 +79,7 @@ project-name/
 │   ├── app.py           # Main Streamlit application
 │
 └── .gitignore           # Ignored files
-
+```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
