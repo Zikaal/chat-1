@@ -84,6 +84,6 @@ project-name/
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
-Streamlit — for providing a simple web application framework.
-Ollama — for their powerful language model.
-MongoDB — for a reliable database solution.
+- Streamlit — for providing a simple web application framework.
+- Ollama — for their powerful language model.
+- MongoDB — for a reliable database solution.
