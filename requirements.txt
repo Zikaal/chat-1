@@ -2,5 +2,4 @@ streamlit
 langchain_community
 llama-index
 pymongo
-python-dotenv
 
