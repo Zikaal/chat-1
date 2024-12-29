@@ -26,3 +26,26 @@ This project is a browser-based chatbot application powered by the Ollama LLM. I
    ```bash
    git clone https://github.com/your-username/project-name.git
    cd project-name
+
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate      # macOS/Linux
+   venv\Scripts\activate         # Windows
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4. Configure environment variables:
+Create a .env file in the root directory and add the following:
+   ```arduino
+   OLLAMA_API_URL=http://localhost:11434
+   MONGODB_URI=mongodb://localhost:27017
+
+5. Ensure that Ollama and MongoDB are running:
+Start the Ollama server:
+   ```bash
+   ollama serve
+Verify that MongoDB is running on the specified URI.
+
